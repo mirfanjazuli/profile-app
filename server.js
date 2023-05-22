@@ -14,10 +14,7 @@ const requestListener = (request, response) => {
 
         response.end();
     })
-
-    // response.end('<h1>Halo HTTP Server!</h1>');
 };
- 
  
 const server = http.createServer(requestListener);
  
